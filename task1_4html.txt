@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>typingspeedtest</title>
+	<meta charset="UTF-8">
+	<script type="text/javascript" src="task1_4js.js"></script>
+	
+</head>
+<body>
+	
+<button id="initial" onclick= "myButton()" style="font-size:30px;position:relative;left:650px;">Start</button>
+
+<div style="position: relative; top: 90px; left: 600px;"><textarea id="textori" style="width: 200px;height: 130px;">Arise, awake and stop not till your goal is reached</textarea></div>
+<div style="position: relative; top: 120px; left: 600px;"><textarea id="textinp" style="width: 200px;height: 130px;"></textarea></div>
+
+<p>
+	<div id="last" style="font-size:20px;text-align:center;position:fixed;bottom:300px;left:650px;">All the Best</div>
+	<div id="last1" style="font-size:20px;text-align:center;position:fixed;bottom:250px;left:650px;"></div>
+    <div id="last2" style="font-size:20px;text-align:center;position:fixed;bottom:200px;left:650px;"></div>
+</p>
+
+</body>
+</html>

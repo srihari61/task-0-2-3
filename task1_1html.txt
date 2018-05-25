@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My web page</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="task1_1css.css">
+	<!-- <link href="file:///home/hari/Spider%20Works/Task%2001,02/task1_2.html">   -->
+
+
+
+
+</head>
+<body style="background-color: hsl(280,50%,50%);">
+<p style="color: black;font-size: 60px;border: 10px solid none;background-color:hsl(250,50%,50%);position: fixed; left: 600px;"><b>SRIHARI S</b></p>
+<div class="btn-group" style="position:relative;top:100px;">
+  <!--
+  <button class="button">home</button>
+  <button class="button">education</button>
+  <button class="button">hobbies</button>
+  <button class="button">typing speed</button>
+-->
+  <form class="button" action="task1_4.html">
+<input type="submit" value="Typing Speed">
+</form>
+
+
+ <form class="button" action="task1_3.html">
+<input type="submit" value="Education">
+</form>
+
+ <form class="button" action="task1_2.html">
+<input type="submit" value="Interests">
+</form>
+
+ <form class="button" action="task1_1.html">
+<input type="submit" value="Home">
+</form>
+
+</div>
+
+<p style="clear:all"><!--Remember to clear floats after, or else will this p element also float next to the buttons.-->
+<p style="font-size: 50px;color: black;position: fixed;left:600px; bottom: 350px;"><b>WELCOME</b></p>
+</body>
+</html>

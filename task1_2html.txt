@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hobbies</title>
+
+	<meta charset="UTF-8">
+    <script type="text/javascript" src="task1_2js.js"></script>    
+	 
+ <!--   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+ // $(" ").load(function(){
+ 
+    $("#div1").delay(1000).fadeIn();
+    //$("#div2").delay(2000).fadeIn();
+    $("#div2").delay(3000).fadeIn();
+    $("#div3").delay(5000).fadeIn();
+  
+});
+</script>
+-->
+
+</head>
+<body style="background-color: hsl(140,50%,50%)">
+	<p style="font-size:70px;color:black;text-align:center;"><b><ins>My hobbies</ins></b></p>
+    <ul class="toshow" style="list-style-type:disc">
+        <li style="font-size:40px;color:black;visibility:none;"><div id="div1"><i>I like playing TT</i></div>
+  	       <div id="div2"> <img src="tabletennis.jpg" alt="table tennis" width="400px" height="320px" style="position:fixed;left:475px;visibility:none;"></div></li><hr>
+        <div id="div3"><li style="font-size:40px;color:black;visibility:none;"><i>I like listening to melodies and carnatic music</i></li></div><hr>
+        <div id="div4"><li style="font-size:40px;color:black;visibility:none;"><i>I lile learning new things</i></li></div>
+    </ul>
+</body>
+</html>

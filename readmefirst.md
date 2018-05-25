@@ -1,0 +1,1 @@
+Task 0.2, 0.3 typing acer bug unfixed html and js files in txt file format.

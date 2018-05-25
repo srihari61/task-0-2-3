@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Education</title>
+	<meta charset="UTF-8">
+
+	<script type="text/javascript" src="task1_3js.js"></script>
+
+
+    <!--
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $(":input").load(function(){ 
+    $("#div1").delay(10000).fadeIn();
+    $("#div2").delay(15000).fadeIn();
+    $("#div3").delay(20000).fadeIn();
+
+  });
+});
+</script>
+-->
+   
+</head>
+<body style="background-color: hsl(55,50%,50%)">
+    <p style="font-size:70px;color:black;text-align:center;"><b>Education</b></p>
+    <ul class="todisplay" style="list-style-type:disc">
+        <div id="div1"><li style="font-size:30px;color:black;visibility:none;"><i>10th GPA:</i><b>10</b></li></div><hr>
+  	        
+        <div id="div2"><li style="font-size:30px;color:black;visibility:none;"><i>12th percentage:</i><b>91%</b></li></div><hr>
+        <div id="div3"><li style="font-size:30px;color:black;visibility:none;"><i>Started <b>BTech ECE</b> in NIT T</i></li></div>
+    </ul>
+
+</body>
+</html>
